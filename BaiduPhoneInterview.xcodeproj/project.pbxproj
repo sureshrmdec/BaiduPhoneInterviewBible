@@ -25,6 +25,8 @@
 /* Begin PBXFileReference section */
 		E509E46C1D1DB91200FDC695 /* BaiduPhoneInterview */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BaiduPhoneInterview; sourceTree = BUILT_PRODUCTS_DIR; };
 		E509E46F1D1DB91200FDC695 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E582E80E1D1DC11F00BA6957 /* ValidateBinarySearchTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ValidateBinarySearchTree.h; sourceTree = "<group>"; };
+		E582E80F1D1DC26A00BA6957 /* DataStructure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataStructure.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,9 @@
 		E509E46E1D1DB91200FDC695 /* BaiduPhoneInterview */ = {
 			isa = PBXGroup;
 			children = (
+				E582E80F1D1DC26A00BA6957 /* DataStructure.h */,
 				E509E46F1D1DB91200FDC695 /* main.cpp */,
+				E582E80E1D1DC11F00BA6957 /* ValidateBinarySearchTree.h */,
 			);
 			path = BaiduPhoneInterview;
 			sourceTree = "<group>";
@@ -239,6 +243,7 @@
 				E509E4751D1DB91200FDC695 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
