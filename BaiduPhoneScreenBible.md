@@ -35,6 +35,8 @@ Baidu USA 电话面试面经
 	// follow up optimize
 	3. 斐波那契数列
 
+	
+
 	> **Emplace** : Efficiently increase vector container size by one	> **Templates** are the foundation of generic programming, which involves writing code in a way that is independent of any particular type	> **Operator overloading** is a specific case of polymorphism in which some or all operators like +, = or == are treated as polymorphic functions 
 		> **Segmentation fault** is a fault raised by hardware with memory protection, notifying an operating system about a memory access violation	> **Multiple inherit** an object or class can inherit characteristics and features from more than one parent object or parent class	> **Volatile** informs the compiler the value of the variable can change from outside without any update done by the code.	> **Polymorphism** means that some code or operations or objects behave differently in different contexts	> **delete & delete[]** release the space which the pointer point to, delete[] release the array space the pointer point to	> **variadic** funtions  are functions which take a variable number of arguments	> **Smart pointer** can automatically manage the memory based on reference counting	> **Pure virtual**
 	
