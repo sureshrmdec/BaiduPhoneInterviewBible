@@ -10,7 +10,30 @@ Baidu USA 电话面试面经
 	3. Implement LRU cache, complexity of map and unordered_map.
 	4. Search a matrix which has all rows sorted and all columns sorted. optimal O(m+n)
 	5. Implement c++ STL vector<T>. Prove that the average complexity of "push_back" is O(1).
+	> The `std::vector` only reallocates space when `std::vector::size()` is larger than `std::vector::capacity()`. Everytime it reallocates space, it will allocate more spaces than needed (multiplied by a factor $M$).
+	> 
+	> Let's say $M=2$, so we have the cost for $i$th `push_back`
+	> \\[
+	> C_i = 1+2^k \quad\text{if } i-1=2^k \text{ for some } k
+	> \\]
+	> \\[
+	> C_i = 1 \quad \text{otherwise}
+	> \\]
+	> Thus, $n$ `push_back` will cost
+	> \\[
+	> T(n)=\sum_{i=1}^{n}1 + \sum_{i=0}^{log(n)}2^i = n + 2n-1=3n-1
+	> \\]
+	> So the amortized cost will be
+	> \\[
+	> \frac{T(n)}{n} = 3
+	> \\]
+	> which is constant time.
+	
 	6. Why is git better than SVN?
+	> 1. Git is designed as a **distributed version control system** from the very beginning. Git every user has a complete copy of the repository data stored locally, thereby making access to file history extremely fast, as well as allowing full functionality when disconnected from the network. If any repository is lost due to system failure only the changes which were unique to that repository are lost. While SVN(Subversion) is a **centralized version control system**. This means that users must communicate over the network with the central repository to obtain history about a file. Backups must be maintained independently of the VCS. If the central repository is lost due to system failure it must be restored from backup and changes since that last backup are likely to be lost.
+	> 2. Branch is a core concept of Git. You can switch between different branches or merge them under one working directory very fast because Git just creates a **pointer** instead of copying the whole repository. In SVN, each branch is a directory.
+	> 3. Git reposirories are usually smaller than Subversion's.
+	> 4. Git operations are usually much faster than Subversion, not only because it's local, but also benefited from the smaller size.
 
 2. 今天收到了Baidu AI lab 的拒信，终于也可以上来好好分享一下电面的经历。
 
@@ -31,8 +54,9 @@ Baidu USA 电话面试面经
 	Phone interview 2:(c++)
 	
 	1. 问了我的backgroud
-	2. Largest kth values in valuesvector  //return vector<int>
-	// follow up optimize
+	2. Largest kth values in values vector  
+			//return vector<int>
+			// follow up optimize
 	3. 斐波那契数列
 
 	****
