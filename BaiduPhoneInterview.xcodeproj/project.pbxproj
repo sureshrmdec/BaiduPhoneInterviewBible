@@ -27,6 +27,7 @@
 		E509E46F1D1DB91200FDC695 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		E582E80E1D1DC11F00BA6957 /* ValidateBinarySearchTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ValidateBinarySearchTree.h; sourceTree = "<group>"; };
 		E582E80F1D1DC26A00BA6957 /* DataStructure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataStructure.h; sourceTree = "<group>"; };
+		E582E8101D1DC7A500BA6957 /* FindKthLargestInUnsortedArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FindKthLargestInUnsortedArray.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +63,7 @@
 				E582E80F1D1DC26A00BA6957 /* DataStructure.h */,
 				E509E46F1D1DB91200FDC695 /* main.cpp */,
 				E582E80E1D1DC11F00BA6957 /* ValidateBinarySearchTree.h */,
+				E582E8101D1DC7A500BA6957 /* FindKthLargestInUnsortedArray.h */,
 			);
 			path = BaiduPhoneInterview;
 			sourceTree = "<group>";
