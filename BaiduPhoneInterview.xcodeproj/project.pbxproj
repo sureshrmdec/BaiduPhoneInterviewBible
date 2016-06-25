@@ -28,6 +28,8 @@
 		E582E80E1D1DC11F00BA6957 /* ValidateBinarySearchTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ValidateBinarySearchTree.h; sourceTree = "<group>"; };
 		E582E80F1D1DC26A00BA6957 /* DataStructure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataStructure.h; sourceTree = "<group>"; };
 		E582E8101D1DC7A500BA6957 /* FindKthLargestInUnsortedArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FindKthLargestInUnsortedArray.h; sourceTree = "<group>"; };
+		E582E8111D1DE23B00BA6957 /* MyVector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyVector.h; sourceTree = "<group>"; };
+		E582E8121D1E20AB00BA6957 /* LRUCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRUCache.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,8 @@
 				E509E46F1D1DB91200FDC695 /* main.cpp */,
 				E582E80E1D1DC11F00BA6957 /* ValidateBinarySearchTree.h */,
 				E582E8101D1DC7A500BA6957 /* FindKthLargestInUnsortedArray.h */,
+				E582E8111D1DE23B00BA6957 /* MyVector.h */,
+				E582E8121D1E20AB00BA6957 /* LRUCache.h */,
 			);
 			path = BaiduPhoneInterview;
 			sourceTree = "<group>";
