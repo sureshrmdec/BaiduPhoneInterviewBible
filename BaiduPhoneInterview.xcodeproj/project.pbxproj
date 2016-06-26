@@ -34,6 +34,7 @@
 		E582E8141D1E3A2600BA6957 /* Search2DMatrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Search2DMatrix.h; sourceTree = "<group>"; };
 		E582E8151D1F7CED00BA6957 /* Search2DMatrixII.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Search2DMatrixII.h; sourceTree = "<group>"; };
 		E582E8161D20617900BA6957 /* ReverseWords.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReverseWords.h; sourceTree = "<group>"; };
+		E582E8171D20766F00BA6957 /* SearchInsertionPosition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchInsertionPosition.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +77,7 @@
 				E582E8141D1E3A2600BA6957 /* Search2DMatrix.h */,
 				E582E8151D1F7CED00BA6957 /* Search2DMatrixII.h */,
 				E582E8161D20617900BA6957 /* ReverseWords.h */,
+				E582E8171D20766F00BA6957 /* SearchInsertionPosition.h */,
 			);
 			path = BaiduPhoneInterview;
 			sourceTree = "<group>";
