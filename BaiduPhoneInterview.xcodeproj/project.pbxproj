@@ -32,6 +32,7 @@
 		E582E8121D1E20AB00BA6957 /* LRUCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRUCache.h; sourceTree = "<group>"; };
 		E582E8131D1E278100BA6957 /* WordSearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WordSearch.h; sourceTree = "<group>"; };
 		E582E8141D1E3A2600BA6957 /* Search2DMatrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Search2DMatrix.h; sourceTree = "<group>"; };
+		E582E8151D1F7CED00BA6957 /* Search2DMatrixII.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Search2DMatrixII.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +73,7 @@
 				E582E8121D1E20AB00BA6957 /* LRUCache.h */,
 				E582E8131D1E278100BA6957 /* WordSearch.h */,
 				E582E8141D1E3A2600BA6957 /* Search2DMatrix.h */,
+				E582E8151D1F7CED00BA6957 /* Search2DMatrixII.h */,
 			);
 			path = BaiduPhoneInterview;
 			sourceTree = "<group>";
