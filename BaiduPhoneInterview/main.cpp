@@ -10,23 +10,21 @@
 
 #include "DataStructure.h"
 
-#include "MyVector.h"
+#include "ReverseWords.h"
 
 int main(int argc, const char * argv[]) {
     
-    MyVector<int> x;
-    x.push_back(1);
-    x.push_back(2);
-    x.push_back(3);
-    x.push_back(4);
-    x.push_back(5);
+    string s = "the sky is blue";
     
-    std::cout << x.size() << std::endl;
-    std::cout << x.capacity() << std::endl;
+    char * str = (char *)malloc(s.length() * sizeof(char));
     
-    for (int i = 0; i < x.size(); i++) {
-        std::cout << x[i] << std::endl;
+    for (int i = 0; i < s.length(); i++) {
+        str[i] = s[i];
     }
+    
+    reverseWordsPureC(str);
+    
+    std::cout <<str << std::endl;
     
     return 0;
 }
