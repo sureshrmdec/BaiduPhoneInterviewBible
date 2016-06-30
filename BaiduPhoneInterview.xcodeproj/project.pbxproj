@@ -36,6 +36,7 @@
 		E582E8161D20617900BA6957 /* ReverseWords.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReverseWords.h; sourceTree = "<group>"; };
 		E582E8171D20766F00BA6957 /* SearchInsertionPosition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchInsertionPosition.h; sourceTree = "<group>"; };
 		E582E8181D20892300BA6957 /* PrintDiagnolMatrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrintDiagnolMatrix.h; sourceTree = "<group>"; };
+		E582E8221D25D8DC00BA6957 /* ShortestWordDistance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShortestWordDistance.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +81,7 @@
 				E582E8161D20617900BA6957 /* ReverseWords.h */,
 				E582E8171D20766F00BA6957 /* SearchInsertionPosition.h */,
 				E582E8181D20892300BA6957 /* PrintDiagnolMatrix.h */,
+				E582E8221D25D8DC00BA6957 /* ShortestWordDistance.h */,
 			);
 			path = BaiduPhoneInterview;
 			sourceTree = "<group>";
