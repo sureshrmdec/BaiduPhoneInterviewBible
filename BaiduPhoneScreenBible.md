@@ -59,10 +59,23 @@ Baidu USA 电话面试面经
 			// follow up optimize
 	3. 斐波那契数列
 
-	****
+	**** 
 
 	> **Emplace** : Efficiently increase vector container size by one	> **Templates** are the foundation of generic programming, which involves writing code in a way that is independent of any particular type	> **Operator overloading** is a specific case of polymorphism in which some or all operators like +, = or == are treated as polymorphic functions 
-		> **Segmentation fault** is a fault raised by hardware with memory protection, notifying an operating system about a memory access violation	> **Multiple inherit** an object or class can inherit characteristics and features from more than one parent object or parent class	> **Volatile** informs the compiler the value of the variable can change from outside without any update done by the code.	> **Polymorphism** means that some code or operations or objects behave differently in different contexts	> **delete & delete[]** release the space which the pointer point to, delete[] release the array space the pointer point to	> **variadic** funtions  are functions which take a variable number of arguments	> **Smart pointer** can automatically manage the memory based on reference counting	> **Pure virtual**
+		> **Segmentation fault** is a fault raised by hardware with memory protection, notifying an operating system about a memory access violation	> **Multiple inherit** an object or class can inherit characteristics and features from more than one parent object or parent class	> **volatile** informs the compiler the value of the variable can change from outside without any update done by the code.	> **Polymorphism** means that some code or operations or objects behave differently in different contexts	> **delete & delete[]** release the space which the pointer point to, delete[] release the array space the pointer point to	> **Variadic funtions** are functions which take a variable number of arguments	> **Smart pointer** can automatically manage the memory based on reference counting	> **Pure virtual** A pure virtual function or pure virtual method is a virtual function that is required to be implemented by a derived class if the derived class is not abstract. Classes containing pure virtual methods are termed "abstract" and they cannot be instantiated directly. A subclass of an abstract class can only be instantiated directly if all inherited pure virtual methods have been implemented by that class or a parent class. Pure virtual methods typically have a declaration (signature) and no definition (implementation).
+	
+	> **Abstract class** A class is made abstract by declaring at least one of its functions as pure virtual function. A pure virtual function is specified by placing "= 0" in its declaration as follows:
+	
+	>		class Box
+			{
+		   	public:
+	       		//pure virtual function
+				virtual double getVolume() = 0;
+	   		private:
+				double length;      // Length of a box
+				double breadth;     // Breadth of a box
+				double height;      // Height of a box
+			};
 	
 3. 之前没怎么在地里看到baidu面经，分享一下吧
 	1. 给一段C++ code，通过修改类让程序输出预期的结果，代码比较长，但是主要考点只有一个copy constructor在返回object的时候被调用这个知识点。
