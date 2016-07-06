@@ -22,6 +22,42 @@ public:
         m_capacity = 0;
     };
     
+    ~MyVector<T>() {
+        delete[] m_data;
+        m_size = 0;
+        m_capacity = 0;
+    }
+    
+    // copy constructor
+    MyVector(MyVector & vec) {
+        m_size = 0;
+        m_capacity = 0;
+        size_t tsize = vec.size();
+        reallocate(tsize);
+        m_size = tsize;
+        m_capacity = tsize;
+        for (int i = 0; i < tsize; i++) {
+            m_data[i] = vec[i];
+        }
+    }
+    
+    // operator =
+    
+    MyVector & operator=(MyVector & vec) {
+        if (this != &vec) {
+            m_size = 0;
+            m_capacity = 0;
+            size_t tsize = vec.size();
+            reallocate(tsize);
+            m_size = tsize;
+            m_capacity = tsize;
+            for (int i = 0; i < tsize; i++) {
+                m_data[i] = vec[i];
+            }
+        }
+        return *this;
+    }
+    
     T operator[](size_t idx) {
         return *(m_data+idx);
     }
@@ -40,13 +76,14 @@ public:
         for (size_t i = 0; i < m_size; i++) {
             *(newdata + i) = *(m_data+i);
         }
-        delete[] m_data;
+        if (m_size>0) delete[] m_data;
+
         m_data = newdata;
     };
     
-    size_t size() { return m_size; };
+    size_t size() const { return m_size; };
     
-    size_t capacity() { return m_capacity; };
+    size_t capacity() const { return m_capacity; };
     
 private:
     
