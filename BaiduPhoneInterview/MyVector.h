@@ -58,7 +58,7 @@ public:
         return *this;
     }
     
-    T operator[](size_t idx) {
+    T & operator[](size_t idx) {
         return *(m_data+idx);
     }
     
@@ -71,6 +71,8 @@ public:
         m_size++;
     };
     
+private:
+    
     void reallocate(size_t newcap) {
         T * newdata = (T*)malloc(sizeof(T) * newcap);
         for (size_t i = 0; i < m_size; i++) {
@@ -80,6 +82,8 @@ public:
 
         m_data = newdata;
     };
+    
+public:
     
     size_t size() const { return m_size; };
     
